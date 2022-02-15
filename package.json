@@ -13,6 +13,8 @@
     "author": "gregory@dappuniversity.com",
     "license": "ISC",
     "devDependencies": {
+        "dotenv": "^4.0.0",
+        "truffle-hdwallet-provider": "0.0.5",
         "bootstrap": "^4.6.1",
         "chai": "^4.1.2",
         "chai-as-promised": "^7.1.1",
@@ -21,5 +23,8 @@
         "nodemon": "^2.0.15",
         "truffle": "^5.4.32",
         "truffle-contract": "^4.0.2"
+    },
+    "dependencies": {
+        "@truffle/hdwallet-provider": "^2.0.3"
     }
 }
